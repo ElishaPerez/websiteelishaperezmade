@@ -1,0 +1,68 @@
+.nav-bar {
+    background-color: aquamarine;
+    height: 88px;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 40px;
+    border: black 3px;
+    border-style: double;
+}
+.nav-list a:hover {
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+}
+
+.list-item {
+    margin-right: 45px;
+    display: inline;
+    padding: 0px 0px;
+}
+
+.dog {
+    height: 88px;
+}
+
+.main {
+    height: 700px;
+    width: 100%;
+}
+
+.main-img {
+    height: 1000px;
+    width: 100%
+}
+
+.section { 
+    position: relative;
+}
+
+.section-img {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 55%;
+}
+
+.section-p {
+    position: absolute;
+    margin-top: 90px;
+    font-size: 150px;
+    width: 70%;
+    text-align: center;
+}
+
+.footer-input{
+margin-top: 10px;
+margin-left: 200px
+}
+.nav-list a {
+    text-decoration: none;
+}
